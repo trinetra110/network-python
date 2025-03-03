@@ -61,8 +61,6 @@ def decode():
     ri=[]
     for i in range(r):
         ri.append((2**i)-1)
-
-    for i in range(r):
         s.append(hamming_code(b,i,n))
 
     d=0
